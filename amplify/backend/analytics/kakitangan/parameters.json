@@ -1,0 +1,20 @@
+{
+    "appName": "kakitangan",
+    "roleName": "pinpointLambdaRoleac0c672a",
+    "cloudWatchPolicyName": "cloudWatchPolicyac0c672a",
+    "pinpointPolicyName": "pinpointPolicyac0c672a",
+    "authPolicyName": "pinpoint_amplify_ac0c672a",
+    "unauthPolicyName": "pinpoint_amplify_ac0c672a",
+    "authRoleName": {
+        "Ref": "AuthRoleName"
+    },
+    "unauthRoleName": {
+        "Ref": "UnauthRoleName"
+    },
+    "authRoleArn": {
+        "Fn::GetAtt": [
+            "AuthRole",
+            "Arn"
+        ]
+    }
+}

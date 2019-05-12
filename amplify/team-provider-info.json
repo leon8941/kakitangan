@@ -1,0 +1,19 @@
+{
+    "dev": {
+        "awscloudformation": {
+            "AuthRoleName": "kakitangan-dev-20190512170533-authRole",
+            "UnauthRoleArn": "arn:aws:iam::556865400651:role/kakitangan-dev-20190512170533-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::556865400651:role/kakitangan-dev-20190512170533-authRole",
+            "Region": "ap-southeast-1",
+            "DeploymentBucketName": "kakitangan-dev-20190512170533-deployment",
+            "UnauthRoleName": "kakitangan-dev-20190512170533-unauthRole",
+            "StackName": "kakitangan-dev-20190512170533",
+            "StackId": "arn:aws:cloudformation:ap-southeast-1:556865400651:stack/kakitangan-dev-20190512170533/00b609f0-7495-11e9-8109-0299b044e622"
+        },
+        "categories": {
+            "auth": {
+                "cognito00512511": {}
+            }
+        }
+    }
+}
